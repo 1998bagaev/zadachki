@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include <iostream>
+class chislo
+{
+private:
+int n; 
+
+bulev(int _n):_n(n){}
+
+void A()
+{
+n=n*5
+}
+void print()
+{
+cout<<A()<<endl;
+~chislo();
+
+}
