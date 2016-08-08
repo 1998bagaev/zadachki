@@ -1,0 +1,32 @@
+class bulev
+{
+public:
+int k;
+int n;
+bool *A;
+bulev(int _k):k(_k)
+{n=(int)pow(2.,k) 
+A = new bool[n] }
+
+friend buvel function conjunction(bulev &a, bulev &b)
+friend buvel function disjunction(bulev &a, bulev &b)
+friend buvel function xor( bulev &a, bulev &b)
+};
+
+ buvel function conjunction(bulev &a, bulev &b)
+ {
+ for (int i=0;i<n;i++)
+ result.bulev[i]=a.bulev[i]&b.bulev[i];
+ }
+ 
+ buvel function disjunction(bulev &a, bulev &b)
+ {
+ for (int i=0;i<n;i++)
+ result.bulev[i]=a.bulev[i]|b.bulev[i];
+ }
+ 
+ buvel function xor(bulev &a, bulev &b)
+ {
+ for (int i=0;i<n;i++)
+ result.bulev[i]=a.bulev[i]^b.bulev[i];
+ }
